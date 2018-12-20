@@ -1,5 +1,5 @@
 # PythonCommon
 
-python的一些统计技术
+Python 常用脚本
 
 enmu_dir 枚举目录和文件
