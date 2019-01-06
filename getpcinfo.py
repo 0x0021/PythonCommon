@@ -117,3 +117,8 @@ if __name__ == '__main__':
     #s2 = base64.decodestring(s1)
     #print(s1,s2)
     #print (printBattery())
+    
+    xmlfilename = 'result.xml'
+    f = open(xmlfilename, 'w') # 若是'wb'就表示写二进制文件
+    f.write(sha)
+    f.close()
